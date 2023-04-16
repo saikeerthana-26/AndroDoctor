@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SkinTreatment">
+
+    <ScrollView
+        android:layout_marginTop="30dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+            <TextView
+                android:layout_margin="3dp"
+                android:textColor="#568852"
+                android:textSize="22dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Symptoms"/>
+
+            <TextView
+                android:layout_margin="2dp"
+                android:textColor="#009688"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/hairlos1"/>
+            <TextView
+                android:layout_margin="2dp"
+                android:textColor="#009688"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/hairlos2"/>
+
+            <TextView
+                android:layout_margin="2dp"
+                android:textColor="#009688"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/hairlos3"/>
+
+            <TextView
+                android:layout_margin="2dp"
+                android:textColor="#009688"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/hairlos4"/>
+
+            <TextView
+                android:layout_margin="2dp"
+                android:textColor="#009688"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/hairlos5"/>
+
+            <TextView
+                android:layout_margin="2dp"
+                android:textColor="#009688"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/hairlos6"/>
+
+            <TextView
+                android:layout_margin="3dp"
+                android:textColor="#568852"
+                android:textSize="22dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Treatment And Medication"/>
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_margin="2dp"
+                android:textColor="#009688"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/treet1"/>
+
+            <TextView
+                android:layout_margin="2dp"
+                android:textColor="#FF5722"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/treet11"/>
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_margin="2dp"
+                android:textColor="#009688"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/treet2"/>
+
+            <TextView
+                android:layout_margin="2dp"
+                android:textColor="#FF5722"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/treet21"/>
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_margin="2dp"
+                android:textColor="#009688"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/treet3"/>
+
+            <TextView
+                android:layout_margin="2dp"
+                android:textColor="#FF5722"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/treet31"/>
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_margin="2dp"
+                android:textColor="#009688"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/treet4"/>
+
+            <TextView
+                android:layout_margin="2dp"
+                android:textColor="#FF5722"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/treet41"/>
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_margin="2dp"
+                android:textColor="#009688"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/treet5"/>
+
+            <TextView
+                android:layout_margin="2dp"
+                android:textColor="#FF5722"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/treet51"/>
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

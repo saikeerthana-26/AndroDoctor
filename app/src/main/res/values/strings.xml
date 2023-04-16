@@ -1,0 +1,89 @@
+<resources>
+    <string name="app_name">Andro Doctor</string>
+
+    <string name="text_hear">Healthy lifestyle choices can help you bring your blood sugar level back to normal, or at least keep it from rising toward the levels seen in type 2 diabetes.</string>
+    <string name="text_sub">To prevent prediabetes from progressing to type 2 diabetes, try to:</string>
+    <string name="text_1">1. Eat healthy foods. Choose foods low in fat and calories and high in fiber. Focus on fruits, vegetables and whole grains. Eat a variety of foods to help you achieve your goals without compromising taste or nutrition.</string>
+    <string name="text_2">2. Be more active. Aim for at least 150 minutes of moderate or 75 minutes of vigorous aerobic activity a week.</string>
+    <string name="text_3">3. Lose excess weight. If you re overweight, losing just 5% to 7% of your body weight about 14 pounds 6.4 kilograms if you weigh 200 pounds 91 kilograms can reduce the risk of type 2 diabetes. To keep your weight in a healthy range, focus on permanent changes to your eating and exercise habits.</string>
+    <string name="text_4">4. Stop smoking. Smoking may up your risk of developing type 2 diabetes.</string>
+    <string name="text_5">5. ake medications as needed. If you re at high risk of diabetes, your doctor might recommend metformin (Glumetza, others). Medications to control cholesterol and high blood pressure might also be prescribed.</string>
+
+    <string name="sym1">1.Dry And Scaly skin</string>
+    <string name="sym2">2.Skin flushing</string>
+    <string name="sym3">3.Itching</string>
+    <string name="sym4">4.Open,crusted,or weeping sores</string>
+
+    <string name="treet">treatment</string>
+
+    <string name="treat1">Topical corticosteroid creams and ointments</string>
+    <string name="treat12"> Description: These are anti-inflammatory medications and should relieve the main symptoms of eczema, such as inflammation and itchiness. People can apply them directly to the skin. Some people may benefit from prescription-strength medications.</string>
+
+    <string name="treat2">Oral medications</string>
+    <string name="treat21">Description: If topical treatments are not effective, a doctor may prescribe oral medications like systemic corticosteroids or immunosuppresants. These are available as injections or oral tablets. People should only use them for short periods of time. Also, it is important to note that the symptoms may worsen upon stopping these drugs if the person is not already taking another medication for the condition.</string>
+
+    <string name="treat3">Antibiotics</string>
+    <string name="treat31">Doctors prescribe antibiotics if eczema occurs alongside a bacterial skin infection.</string>
+
+    <string name="treat4">Antihistamines</string>
+    <string name="treat41">Description: These can reduce the risk of nighttime scratching, as they tend to cause drowsiness.</string>
+
+    <string name="treat5">Topical calcineurin inhibitors</string>
+    <string name="treat51">Description: This drug suppresses the activities of the immune system. It decreases inflammation and helps prevent flares.</string>
+
+    <string name="treat6">Barrier repair moisturizers</string>
+    <string name="treat61">Description: These reduce water loss and work to repair the skin.</string>
+
+    <string name="treat7">Phototherapy</string>
+    <string name="treat71">Description: This involves exposure to UVA or UVB waves. This method can treat moderate dermatitis. A doctor will monitor the skin closely throughout the treatment.</string>
+
+    <string name="treat8">Injected biologic drugs</string>
+    <string name="treat81">Description: These medications block proteins in the immune system to limit immune system response.</string>
+
+
+    <string name="hairlos1">1.A receding hairline typically around the forehead, temples, or nape</string>
+    <string name="hairlos2">2.Small pimples appear on the scalp or at the base of braids</string>
+    <string name="hairlos3">3.Redness, itching, and ulcers on the scalp</string>
+    <string name="hairlos4">4.The hair parting widens</string>
+    <string name="hairlos5">5.Patches of thin or broken hair in places where the hair has been under strain</string>
+    <string name="hairlos6">6.patches of shiny, scarred skin in more advanced cases</string>
+
+
+
+    <string name="treet1">Avoid tight hairstyles if possible</string>
+    <string name="treet11">Description: If a person’s religion or profession require tight hairstyles, they should tie their hair as loosely as possible and wear their hair loose or down whenever possible.</string>
+
+    <string name="treet2">Avoid or limit chemicals, including relaxers.</string>
+    <string name="treet21">Description: Avoid putting relaxer onto already relaxed hair.</string>
+
+    <string name="treet3">Change hairstyles every few weeks</string>
+    <string name="treet31">Description: To prevent strain on one area of the scalp.</string>
+
+    <string name="treet4">Try hair growth products</string>
+    <string name="treet41">Description: Around 40 percentTrusted Source of people using a minoxidil product regrow some hair after 3 to 6 months. The United States Food and Drug Administration (FDA)Trusted Source have approved Rogaine, but people should not use it if their scalp is red or inflamed.</string>
+
+    <string name="treet5">Use anti-inflammatories.</string>
+    <string name="treet51">Description: Steroid creams can reduce swelling on the scalp caused by traction alopecia.</string>
+
+
+    <string name="menstruation_length_label">Menstruation length</string>
+    <string name="period_length_label">Period length</string>
+    <string name="button_plus_label">+</string>
+    <string name="button_minus_label">-</string>
+    <string name="last_period_date_label">Last period date</string>
+    <string name="pick_last_period_date">Set last period date</string>
+    <string name="incoming_period_notification_label">Incoming period notification</string>
+    <string name="fertile_days_notification_label">Fertile days notification</string>
+    <string name="ovulation_notification_label">Ovulation notification</string>
+    <string name="update_preferences">Update</string>
+    <string name="go_to_preferences">Preferences</string>
+    <string name="clear_calendar">Clear calendar</string>
+    <string name="ovulation_notification_title">Ovulation day!</string>
+    <string name="ovulation_notification_text">Tomorrow is ovulation day</string>
+    <string name="fertile_notification_title">Fertile day!</string>
+    <string name="fertile_notification_text">Tomorrow is fertile day</string>
+    <string name="period_notification_title">Menstruation day!</string>
+    <string name="period_notification_text">Tomorrow is a menstruation day</string>
+
+
+</resources>

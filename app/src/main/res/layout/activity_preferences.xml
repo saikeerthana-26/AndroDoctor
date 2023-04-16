@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<RelativeLayout
+    android:id="@+id/activity_preferences"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/linearLayout"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Menstruation Days"/>
+
+            <LinearLayout
+                android:weightSum="2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:textColor="#000000"
+                    android:layout_margin="3dp"
+                    android:id="@+id/menstruation_length_value"
+                    android:inputType="number"
+                    android:enabled="false"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.8"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"/>
+
+                <Button
+                    android:paddingStart="4dp"
+                    android:text="Add"
+                    android:background="#009688"
+                    android:textAllCaps="false"
+                    android:textColor="#ffffff"
+                    android:drawableStart="@drawable/ic_baseline_add_circle_24"
+                    android:layout_margin="3dp"
+                    android:onClick="menstruationLengthPlusOne"
+                    android:layout_weight="0.6"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"/>
+                <Button
+                    android:paddingStart="4dp"
+                    android:text="Remove"
+                    android:drawableStart="@drawable/ic_baseline_remove_circle_24"
+                    android:background="#960016"
+                    android:textAllCaps="false"
+                    android:textColor="#ffffff"
+                    android:layout_margin="3dp"
+                    android:onClick="menstruationLengthMinusOne"
+                    android:layout_weight="0.6"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Period Days"/>
+
+            <LinearLayout
+                android:weightSum="2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:textColor="#000000"
+                    android:layout_margin="3dp"
+                    android:id="@+id/period_length_value"
+                    android:inputType="number"
+                    android:enabled="false"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.8"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"/>
+
+                <Button
+                    android:paddingStart="4dp"
+                    android:text="Add"
+                    android:background="#009688"
+                    android:textAllCaps="false"
+                    android:textColor="#ffffff"
+                    android:drawableStart="@drawable/ic_baseline_add_circle_24"
+                    android:layout_margin="3dp"
+                    android:onClick="periodLengthPlusOne"
+                    android:layout_weight="0.6"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"/>
+                <Button
+                    android:paddingStart="4dp"
+                    android:text="Remove"
+                    android:drawableStart="@drawable/ic_baseline_remove_circle_24"
+                    android:background="#960016"
+                    android:textAllCaps="false"
+                    android:textColor="#ffffff"
+                    android:layout_margin="3dp"
+                    android:onClick="periodLengthMinusOne"
+                    android:layout_weight="0.6"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Last Period Date"/>
+
+            <LinearLayout
+                android:weightSum="2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:textColor="#000000"
+                    android:layout_margin="3dp"
+                    android:id="@+id/last_period_date_value"
+                    android:inputType="date"
+                    android:enabled="false"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:layout_weight="01"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"/>
+
+                <Button
+                    android:paddingStart="4dp"
+                    android:text="Calender"
+                    android:background="#009688"
+                    android:textAllCaps="false"
+                    android:textColor="#ffffff"
+                    android:drawableStart="@drawable/ic_baseline_calendar_today_24"
+                    android:layout_margin="3dp"
+                    android:onClick="showDatePickerDialog"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <Switch
+            android:trackTint="#FF5722"
+            android:thumbTint="#009688"
+            android:text="Income Period Notification"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="14dp"
+            android:layout_marginTop="32dp"
+            android:layout_gravity="center_vertical"
+            android:id="@+id/incoming_period_notification" />
+
+        <Switch
+            android:trackTint="#FF5722"
+            android:thumbTint="#009688"
+            android:text="Fertile Days Notification"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="14dp"
+            android:layout_marginTop="32dp"
+            android:layout_gravity="center_vertical"
+            android:id="@+id/fertile_days_notification" />
+
+        <Switch
+            android:trackTint="#FF5722"
+            android:thumbTint="#009688"
+            android:text="Ovulation Notification"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="14dp"
+            android:layout_marginTop="32dp"
+            android:layout_gravity="center_vertical"
+            android:id="@+id/ovulation_notification" />
+
+        <LinearLayout
+            android:layout_margin="4dp"
+            android:weightSum="2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                android:background="@drawable/round"
+                android:layout_margin="4dp"
+                android:textAllCaps="false"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Submit"
+                android:onClick="updatePreferences"
+                android:layout_gravity="center"
+                android:layout_weight="1"/>
+
+            <Button
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                android:background="@drawable/round"
+                android:layout_margin="4dp"
+                android:textAllCaps="false"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Clear Data"
+                android:onClick="clearPeriodCalendar"
+                android:layout_gravity="center"
+                android:layout_weight="1"/>
+
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>
+</ScrollView>

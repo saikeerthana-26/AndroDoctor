@@ -1,0 +1,2 @@
+0 Alopecia
+1 nohairfall

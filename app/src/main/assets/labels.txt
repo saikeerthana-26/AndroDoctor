@@ -1,0 +1,6 @@
+0 Eczema
+1 Melanoma
+2 Dermatitis
+3 Psoriasis
+4 Blister
+5 other

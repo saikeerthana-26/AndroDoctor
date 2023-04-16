@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SkinTreatment">
+
+    <ScrollView
+        android:layout_marginTop="30dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_margin="3dp"
+                android:textColor="#568852"
+                android:textSize="22dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Symptoms"/>
+
+            <TextView
+                android:layout_margin="2dp"
+                android:textColor="#009688"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sym1"/>
+            <TextView
+                android:layout_margin="2dp"
+                android:textColor="#009688"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sym2"/>
+
+            <TextView
+                android:layout_margin="2dp"
+                android:textColor="#009688"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sym3"/>
+
+            <TextView
+                android:layout_margin="2dp"
+                android:textColor="#009688"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sym4"/>
+
+            <TextView
+                android:layout_margin="3dp"
+                android:textColor="#568852"
+                android:textSize="22dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Treatment And Medication"/>
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_margin="2dp"
+                android:textColor="#009688"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/treat1"/>
+
+            <TextView
+                android:layout_margin="2dp"
+                android:textColor="#FF5722"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/treat12"/>
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_margin="2dp"
+                android:textColor="#009688"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/treat2"/>
+
+            <TextView
+                android:layout_margin="2dp"
+                android:textColor="#FF5722"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/treat21"/>
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_margin="2dp"
+                android:textColor="#009688"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/treat3"/>
+
+            <TextView
+                android:layout_margin="2dp"
+                android:textColor="#FF5722"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/treat31"/>
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_margin="2dp"
+                android:textColor="#009688"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/treat4"/>
+
+            <TextView
+                android:layout_margin="2dp"
+                android:textColor="#FF5722"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/treat41"/>
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_margin="2dp"
+                android:textColor="#009688"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/treat5"/>
+
+            <TextView
+                android:layout_margin="2dp"
+                android:textColor="#FF5722"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/treat51"/>
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_margin="2dp"
+                android:textColor="#009688"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/treat6"/>
+
+            <TextView
+                android:layout_margin="2dp"
+                android:textColor="#FF5722"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/treat61"/>
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_margin="2dp"
+                android:textColor="#009688"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/treat7"/>
+
+            <TextView
+                android:layout_margin="2dp"
+                android:textColor="#FF5722"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/treat71"/>
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_margin="2dp"
+                android:textColor="#009688"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/treat8"/>
+
+            <TextView
+                android:layout_margin="2dp"
+                android:textColor="#FF5722"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/treat81"/>
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

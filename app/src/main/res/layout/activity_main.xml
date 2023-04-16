@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/men"
+                android:src="@drawable/menstrual"
+                android:layout_margin="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:weightSum="2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/hair"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:cardElevation="10dp"
+                    app:cardCornerRadius="20dp"
+                    android:layout_margin="10dp"
+                    app:cardMaxElevation="12dp"
+                    app:cardPreventCornerOverlap="true">
+
+                    <ImageView
+                        android:background="@drawable/hair"
+                        android:layout_width="87dp"
+                        android:layout_height="90dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="15dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Hair Fal"
+                        android:layout_gravity="bottom|center_horizontal"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginBottom="10dp"
+                        android:textSize="12sp"
+                        android:textColor="#FF5722"/>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/skin"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:cardElevation="10dp"
+                    app:cardCornerRadius="20dp"
+                    android:layout_margin="10dp"
+                    app:cardMaxElevation="12dp"
+                    app:cardPreventCornerOverlap="true">
+
+                    <ImageView
+                        android:src="@drawable/rash"
+                        android:layout_width="87dp"
+                        android:layout_height="90dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="15dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Skin Disease"
+                        android:layout_gravity="bottom|center_horizontal"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginBottom="10dp"
+                        android:textSize="12sp"
+                        android:textColor="#FF5722"/>
+
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:weightSum="2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/dia"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="10dp"
+                    app:cardMaxElevation="12dp"
+                    app:cardPreventCornerOverlap="true">
+
+                    <ImageView
+                        android:src="@drawable/glucosemeter"
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="15dp" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom|center_horizontal"
+                        android:layout_marginBottom="5dp"
+                        android:text="Diabetic"
+                        android:textColor="#FF5722"
+                        android:textSize="12sp" />
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/logout"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:cardElevation="10dp"
+                    app:cardCornerRadius="20dp"
+                    android:layout_margin="10dp"
+                    app:cardMaxElevation="12dp"
+                    app:cardPreventCornerOverlap="true">
+
+                    <ImageView
+                        android:src="@drawable/shutdown"
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="15dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="logout"
+                        android:layout_gravity="bottom|center_horizontal"
+                        android:layout_marginBottom="5dp"
+                        android:textSize="12sp"
+                        android:textColor="#FF5722"/>
+
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+            <LinearLayout
+                android:weightSum="2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/upl"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="10dp"
+                    app:cardMaxElevation="12dp"
+                    app:cardPreventCornerOverlap="true">
+
+                    <ImageView
+                        android:src="@drawable/fileupload"
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="15dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom|center_horizontal"
+                        android:layout_marginBottom="5dp"
+                        android:text="Upload Pdf"
+                        android:textColor="#FF5722"
+                        android:textSize="12sp" />
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/down"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:cardElevation="10dp"
+                    app:cardCornerRadius="20dp"
+                    android:layout_margin="10dp"
+                    app:cardMaxElevation="12dp"
+                    app:cardPreventCornerOverlap="true">
+
+                    <ImageView
+                        android:src="@drawable/download"
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="15dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Download Pdf"
+                        android:layout_gravity="bottom|center_horizontal"
+                        android:layout_marginBottom="5dp"
+                        android:textSize="12sp"
+                        android:textColor="#FF5722"/>
+
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
